@@ -10,17 +10,18 @@ img {
   border-radius: 0.25rem 0.25rem 0 0;
   height: auto;
   width: 100%;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
   img {
-    min-height: 15.5rem;
+    height: 15.5rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   img {
-    min-height: 16.375rem;
+    height: 16.375rem;
   }
 }
 
